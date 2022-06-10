@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+body{
+  background-color: black;
+  background-image: url('img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title h1{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin-top: 40vh;
+}
+.title{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+.title h1{
+  font-size: 225px;
+}
+.title .titleAlumni{
+  text-align: center;
+
+}
+.rationale p{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: 20px;
+  margin-top: 20px;
+  padding: 20px 90px 30px 90px;
+  font-size: 20px;
+}
+.rationale{
+  padding: 0px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.rationale h1{
+  color: black;
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 100px;
+}
+.objectives p{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: 12vh;
+  padding: 20px 140px 20px 140px;
+  font-size: 20px;
+  text-align: left;
+}
+.objectives{
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.objectives h1{
+  color: black;
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  padding: 100px 30px 30px 20px;
+}
+.dba p{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: 12vh;
+  padding: 20px 140px 30px 140px;
+  font-size: 20px;
+  text-align: left;
+}
+.dba{
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.dba h1{
+  color: black;
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  padding: 100px 30px 30px 20px;
+}
+.ERD p{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: 12vh;
+  padding: 20px 140px 30px 140px;
+  font-size: 20px;
+  text-align: left;
+}
+.ERD{
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.ERD h1{
+  color: black;
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  padding: 100px 30px 30px 20px;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.5) rgb(0, 0, 0);
+}
+footer .profiles{
+  display: flex;
+  justify-content: center;
+}
+footer .profiles h1{
+  font-size: 15px;
+}
+footer .profiles .ericdelossantos{
+  justify-content: center;
+  text-align: center;
+  margin: 13px 13px;
+}
+footer .profiles .khimnoelcappalla{
+  justify-content: center;
+  text-align: center;
+  margin: 13px 13px;
+}
+footer .profiles .lourenpercklabra{
+  justify-content: center;
+  text-align: center;
+  margin: 13px 13px;
+}
+footer .profiles .lovelyannoligo{
+  justify-content: center;
+  text-align: center;
+  margin: 13px 13px;
+}
+footer .profiles .jimkarlocapero{
+  justify-content: center;
+  text-align: center;
+  margin: 13px 13px;
+}

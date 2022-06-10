@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+      <div class="container">
+        <a class="navbar-brand" href="#home"><span style="color: #FFC300; font-weight: bold;">Alumni</span><span style="color: #162252; font-weight: bold;">Portal</span></a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#rationale"style="color: white;">Rationale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#objectives"style="color: white;">Objectives</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dba"style="color: white;">Database Architecture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ERD"style="color: white;">ERD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#links"style="color: white;">Links</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#!">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#!">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div id="firstPart">
+<div class="title" id="home">
+    <div class="titleAlumni" style="color: #FFC300; font-weight: bold;">
+      <h1>
+        Alumni
+      </h1>
+    </div>
+    <div class="titlePortal" style="color: #162252; font-weight: bold;">
+      <h1>
+        Portal
+      </h1>
+    </div>
+</div>
+<div class="rationale" id="rationale">
+  <h1 style="color: white ;">
+    Rationale
+  </h1>
+  <p> 
+    The Alumni Portal System is a web-based system intended for the alumni to update their status and to be informed on upcoming events. The system can display a reminder or an announcement on the homepage of the website. One of the functions of the alumni account is that they can update their status and current job anytime. This allows the alumnus to see how their peers have progressed professionally. The alumni can create their own account and have it visible to their fellow alumni.
+    In this system, we provide security for the data of the alumni. All the data of the college graduates will be stored in the database server. Only the alumni and faculty can access it. The Alumni Portal System will track records of the alumni.
+  </p>
+</div>
+<div class="objectives" id="objectives">
+  <h1 style="color: white ;">
+    Objectives of the Study
+  </h1>
+  <p>
+    This study aims to develop Alumni Portal<br>
+    <br>
+    Specifically, the study aimed to:<br>
+    <br>
+    1.Create alumni Account<br>
+    2.Manage Alumni Account<br>
+    3.Generate Alumni Status and Report<br>
+    4.Send updates to alumni<br>
+    5.Create a Graph Analysis to provide data for the school<br>
+    6.To evaluate the system using ISO 25010<br>
+  </p>
+</div>
+<div class="dba" id="dba">
+  <h1 style="color: white ;">
+    Database Architecture
+  </h1>
+  <div class="card" style="width: 75%; justify-content: center; margin-left: 12%">
+    <img src="img/Architecture.png" class="card-img-top" alt="..." style="height: 500px;">
+    <div class="card-body">
+      <p class="card-text">Alumni can log in to the system and update their information via the web-based frontend. Admins have access to a separate admin site, which includes powerful searching and filtering tools, as well as features for importing and exporting data. The backend handles client requests that arrive through the web-based frontend, bridging the gap between client activities and the database. The Alumni Database maintains all information and data for alumni who have registered with the system.</p>
+    </div>
+  </div>
+</div>
+<div class="ERD" id="ERD">
+  <h1 style="color: white ;">
+    Entity Relationship Diagram
+  </h1>
+  <img src="C:\Users\eric delos santos\Desktop\IT108\Portfolio\img\ERD capstone.png" alt="">
+</div>
+<div id="links" class="card-body" style="background-color: white; text-align: center; margin: 100px 200px 100px 200px; padding: 50px;">
+  <h5 class="card-title">Alumni Portal of Iloilo Science and Technology University</h5>
+  <p class="card-text">SQL statements to answer our objectives</p>
+  <a href="https://www.db-fiddle.com/f/2jNcVXu9mUyFN8gavie7bf/0" class="btn btn-primary" target = “_blank”>DB-FIDDLE</a>
+</div>
+</div>
+</body>
+<footer style="background-color: #162252;">
+<div class="profiles">
+  <div class="ericdelossantos">
+    <div class="pp">
+      <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-6/285181390_3264705287144630_3831227846743683447_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHImSFXTRmCVp3Ff9oyZdfTH7aPj_fhoawfto-P9-GhrJk9bob_m6COSXaZME2CX43ylSj3lfb47D1_NK68sdu-&_nc_ohc=eO6rZOw9bRIAX_00Sxu&tn=OHbQH3742eLxmihO&_nc_ht=scontent.fceb1-2.fna&oh=00_AT-tb-IS1c6FkBJgMR9R_FPFTmhFbe5RcYH79i2nG4S8cw&oe=62A81BE5" alt="" style="height:100px ;">
+    </div>
+    <h1 style="color: #FFC300;">
+      Eric Delos Santos
+    </h1>
+    <div class="links">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+  <div class="khimnoelcappalla">
+    <div class="pp">
+      <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t39.30808-6/280197255_5632426113468414_6728057202723563507_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGJ74y_n7VfF0ljHtjUqhVkmxpBTOXJP2ubGkFM5ck_a_EVLQ9m0MTzUTAm9Dw_zx4_BMH3IbKG-85lXPhx_8Dm&_nc_ohc=maVaCO-Be4EAX8uoTtD&_nc_ht=scontent.fceb1-1.fna&oh=00_AT_KlbqPUscYS73zzETbSG3Y4hDUhpIS4H-VO4aaP682FQ&oe=62A87A0C" alt="" style="height:100px ;">
+    </div>
+    <h1 style="color: #FFC300;">
+      Khim Noel Capalla
+    </h1>
+    <div class="links">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+  <div class="lourenpercklabra">
+    <div class="pp">
+      <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t31.18172-8/27748098_909526209217433_9040880336561970162_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEPW5uefFDraExMLHdVDPJPq2QhXLHSRhqrZCFcsdJGGsk_l-fkbeJLKdk30SEa1aAoqjnCs9iPGDlcdKjm_-q0&_nc_ohc=7V5EIbd4Jg4AX87EyFp&tn=OHbQH3742eLxmihO&_nc_ht=scontent.fceb1-3.fna&oh=00_AT-DDxP8PkC0PS8ZotuWXrdjfKl21FILKLeiwe30XwkZOg&oe=62CA2927" alt="" style="height:100px ;">
+    </div>
+    <h1 style="color: #FFC300;">
+      Louren Perck Labra
+    </h1>
+    <div class="links">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+  <div class="lovelyannoligo">
+    <div class="pp">
+      <img src="https://static.zerochan.net/Boa.Hancock.full.1956576.jpg" alt="" style="height:100px ;">
+    </div>
+    <h1 style="color: #FFC300;">
+      Lovely Ann Oligo
+    </h1>
+    <div class="links">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+  <div class="jimkarlocapero">
+    <div class="pp">
+      <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-6/284802521_2207945692689692_6729793602162469974_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFr4BMnlwuwIIaXKURU1tLBXLFSPSmJ4JdcsVI9KYngl4YKk7Rm0NpJ9ztPQwztfekyCVrt1OPLaWJsziSRaFrL&_nc_ohc=g3cxjfykWzcAX_olMXL&_nc_ht=scontent.fceb1-2.fna&oh=00_AT8EsOPnzw_cmLK2wEH_JYTaT143O9-BZZiivEmmyIe4Nw&oe=62A81032" alt="" style="height:100px ;">
+    </div>
+    <h1 style="color: #FFC300;">
+      Jim Karlo Capero
+    </h1>
+    <div class="links">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+</div>
+</footer>
+</html>
